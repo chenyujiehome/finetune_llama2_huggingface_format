@@ -1,6 +1,22 @@
 # llama2微调指南
+<style>
+    .link-image-text {
+        font-size: 24px; /* adjust as needed */
+        display: inline-flex;
+        align-items: center;
+        vertical-align: middle;
+    }
+    .link-image-text img {
+        height: 24px; /* make sure the font-size and height are the same or adjust to your preference */
+        margin-right: 10px; /* optional space between the image and the text */
+    }
+</style>
 
-<a href="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/RAEDME_english.md">     <img src="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/img/united-kingdom.png" alt="united-kingdom" style="zoom:5%;" /> </a>[English-Verison](https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/RAEDME_english.md)
+<a href="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/RAEDME_english.md" class="link-image-text">
+    <img src="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/img/united-kingdom.png" alt="united-kingdom" />
+    English-Version
+</a>
+[English-Verison](https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/RAEDME_english.md)
 
 ## 微调流程
 
