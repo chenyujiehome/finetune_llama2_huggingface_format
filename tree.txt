@@ -1,0 +1,163 @@
+inference_on_finetune_model.ipynb [error opening dir]
+llama
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── convert_llama_weights_to_hf.py
+├── download.sh
+├── example_chat_completion.py
+├── example_text_completion.py
+├── LICENSE
+├── llama
+│   ├── generation.py
+│   ├── __init__.py
+│   ├── model.py
+│   └── tokenizer.py
+├── llama-2-7b
+│   ├── 7B
+│   │   ├── checklist.chk
+│   │   ├── consolidated.00.pth
+│   │   └── params.json
+│   ├── tokenizer_checklist.chk
+│   └── tokenizer.model
+├── llama.egg-info
+│   ├── dependency_links.txt
+│   ├── PKG-INFO
+│   ├── requires.txt
+│   ├── SOURCES.txt
+│   └── top_level.txt
+├── llama-recipes
+│   ├── CODE_OF_CONDUCT.md
+│   ├── configs
+│   │   ├── datasets.py
+│   │   ├── fsdp.py
+│   │   ├── __init__.py
+│   │   ├── peft.py
+│   │   ├── __pycache__
+│   │   │   ├── datasets.cpython-311.pyc
+│   │   │   ├── fsdp.cpython-311.pyc
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── peft.cpython-311.pyc
+│   │   │   └── training.cpython-311.pyc
+│   │   └── training.py
+│   ├── CONTRIBUTING.md
+│   ├── docs
+│   │   ├── Dataset.md
+│   │   ├── FAQ.md
+│   │   ├── images
+│   │   │   ├── feature-based_FN.png
+│   │   │   ├── featurebased_FN_.png
+│   │   │   └── full-param-FN.png
+│   │   ├── inference.md
+│   │   ├── LLM_finetuning.md
+│   │   ├── multi_gpu.md
+│   │   └── single_gpu.md
+│   ├── ft_datasets
+│   │   ├── alpaca_dataset.py
+│   │   ├── grammar_dataset
+│   │   │   ├── grammar_dataset_process.ipynb
+│   │   │   ├── grammar_dataset.py
+│   │   │   ├── __init__.py
+│   │   │   └── __pycache__
+│   │   │       ├── grammar_dataset.cpython-311.pyc
+│   │   │       └── __init__.cpython-311.pyc
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── alpaca_dataset.cpython-311.pyc
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── samsum_dataset.cpython-311.pyc
+│   │   │   └── utils.cpython-311.pyc
+│   │   ├── samsum_dataset.py
+│   │   └── utils.py
+│   ├── inference
+│   │   ├── chat_completion.py
+│   │   ├── chats.json
+│   │   ├── chat_utils.py
+│   │   ├── checkpoint_converter_fsdp_hf.py
+│   │   ├── hf-text-generation-inference
+│   │   │   ├── merge_lora_weights.py
+│   │   │   └── README.md
+│   │   ├── inference.py
+│   │   ├── model_utils.py
+│   │   ├── README.md
+│   │   ├── safety_utils.py
+│   │   ├── samsum_prompt.txt
+│   │   └── vLLM_inference.py
+│   ├── LICENSE
+│   ├── llama_finetuning.py
+│   ├── model_checkpointing
+│   │   ├── checkpoint_handler.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── checkpoint_handler.cpython-311.pyc
+│   │       └── __init__.cpython-311.pyc
+│   ├── multi_node.slurm
+│   ├── policies
+│   │   ├── activation_checkpointing_functions.py
+│   │   ├── anyprecision_optimizer.py
+│   │   ├── __init__.py
+│   │   ├── mixed_precision.py
+│   │   ├── __pycache__
+│   │   │   ├── activation_checkpointing_functions.cpython-311.pyc
+│   │   │   ├── anyprecision_optimizer.cpython-311.pyc
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── mixed_precision.cpython-311.pyc
+│   │   │   └── wrapping.cpython-311.pyc
+│   │   └── wrapping.py
+│   ├── quickstart.ipynb
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── scripts
+│   │   ├── markdown_link_check_config.json
+│   │   ├── spellcheck_conf
+│   │   │   ├── spellcheck.yaml
+│   │   │   └── wordlist.txt
+│   │   └── spellcheck.sh
+│   ├── tmp
+│   │   └── llama-output
+│   │       ├── adapter_config.json
+│   │       ├── adapter_model.bin
+│   │       └── README.md
+│   ├── UPDATES.md
+│   ├── USE_POLICY.md
+│   └── utils
+│       ├── config_utils.py
+│       ├── dataset_utils.py
+│       ├── fsdp_utils.py
+│       ├── __init__.py
+│       ├── memory_utils.py
+│       ├── __pycache__
+│       │   ├── dataset_utils.cpython-311.pyc
+│       │   ├── fsdp_utils.cpython-311.pyc
+│       │   ├── __init__.cpython-311.pyc
+│       │   ├── memory_utils.cpython-311.pyc
+│       │   └── train_utils.cpython-311.pyc
+│       └── train_utils.py
+├── MODEL_CARD.md
+├── models_hf
+│   └── 7B
+│       ├── config.json
+│       ├── generation_config.json
+│       ├── pytorch_model-00001-of-00002.bin
+│       ├── pytorch_model-00002-of-00002.bin
+│       ├── pytorch_model.bin.index.json
+│       ├── special_tokens_map.json
+│       ├── tokenizer_config.json
+│       ├── tokenizer.json
+│       └── tokenizer.model
+├── README.md
+├── requirements.txt
+├── Responsible-Use-Guide.pdf
+├── setup.py
+├── UPDATES.md
+└── USE_POLICY.md
+output
+├── dir
+│   ├── adapter_config.json
+│   ├── adapter_model.bin
+│   └── README.md
+├── finetune_llama2_output.ipynb
+├── nohup.out
+└── upload_and_excute_finetune_endwithshutdown.sh
+README.md [error opening dir]
+
+28 directories, 129 files
