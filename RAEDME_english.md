@@ -2,11 +2,7 @@
 
 <a href="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/RAEDME.md">
 
-<img src="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/img/china.png" alt="china" height="12" />
-
-中文版本
-
-</a>
+<img src="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/img/china.png" alt="china" height="12" />中文版本</a>
 
 ## Fine-tuning Process
 
