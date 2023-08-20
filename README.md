@@ -1,6 +1,6 @@
 # llama2微调指南
 <a href="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/RAEDME_english.md">
-    <img src="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/img/united-kingdom.png" alt="united-kingdom" height="15" /> 
+    <img src="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/img/united-kingdom.png" alt="united-kingdom" height="12" /> 
     English-Version
 </a>
 
