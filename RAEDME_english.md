@@ -2,7 +2,7 @@
 
 <a href="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/README.md">
 
-<img src="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/img/china.png" alt="china" height="12" />中文版本</a>
+<img src="https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/img/china.png" alt="china" height="12" />[中文版本](https://github.com/chenyujiehome/finetune_llama2_huggingface_format/blob/master/README.md)</a>
 
 ## Fine-tuning Process
 
